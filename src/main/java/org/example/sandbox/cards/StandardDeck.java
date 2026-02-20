@@ -46,10 +46,10 @@ public class StandardDeck implements Deck {
     public void cut(int index) {
 
 
-        List<Card> top = cards.subList(cards.subList(0, index));
-        List<Card> bottom = cards.subList(cards.subList(index, cards.size()));
-        bottom.addAll(top);
-        this.cards = bottom;
+        //List<Card> top = cards.subList(cards.subList(0, index));
+        //List<Card> bottom = cards.subList(cards.subList(index, cards.size()));
+        //bottom.addAll(top);
+        //this.cards = bottom;
 
         "Hello".substring(0, index + 1);
 
